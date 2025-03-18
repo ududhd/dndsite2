@@ -187,8 +187,6 @@ img.chat{
     transform: scale(1.05);
     cursor:pointer;
 }
-
-
   /* Смещаем кнопки из левой колонки (1-я и 3-я) немного влево */
 .buttons_1 button:nth-child(odd) {
     transform: translateX(-44%); /* смещаем на 5 пикселей влево, значение можно корректировать */
@@ -211,7 +209,6 @@ img.chat{
     background-image: url('buttons/relations_button.png');
     background-size: cover;
 }
-
 .statistic {
     background-image: url('buttons/statistics_button.png');
     background-size: cover;
