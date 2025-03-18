@@ -1,26 +1,4 @@
-/* Анимация для появления элемента */
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
-/* Анимация для исчезновения элемента */
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    100% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-}
 img.background {
     min-height: 100vh; /* Используем viewport height для высоты */
     min-width: 100vw; /* Используем viewport width для ширины */
