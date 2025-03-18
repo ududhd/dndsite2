@@ -1,4 +1,26 @@
+/* Анимация для появления элемента */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
+/* Анимация для исчезновения элемента */
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
 img.background {
     min-height: 100vh; /* Используем viewport height для высоты */
     min-width: 100vw; /* Используем viewport width для ширины */
@@ -9,6 +31,7 @@ img.background {
     left: 0;
     z-index: -1; /* Убедимся, что фон находится позади других элементов */
 }
+
 
 /* Рамка */
 img.ramka {
@@ -126,8 +149,10 @@ img.reverse_container{
     height: auto; /* Автоматическая высота для сохранения пропорций */
     max-height: 80px; /* Ограничиваем максимальную высоту */
 }
+
 .invent{
-    display: none;
+    display: none; /* Показываем элементы */
+    opacity: 1; /* Делаем элементы видимыми */
     position: absolute;
     top: 20%;
     left: 50%;

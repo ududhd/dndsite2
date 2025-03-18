@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Style.css">
+    
 </head>
 <body>
     <div class="main_conteiner">
@@ -63,8 +64,6 @@
         document.querySelector('.inventar').addEventListener('click', function() {
             var osnova = document.querySelector('.osnova');
             var invent = document.querySelector('.invent');
-            
-
             // Переключаем видимость
             if (osnova.style.display !== 'none') {
                 osnova.style.display = 'none';  // Скрываем группу osnova
@@ -72,6 +71,7 @@
             } else {
                 osnova.style.display = 'block';  // Показываем группу osnova
                 invent.style.display = 'none';  // Скрываем группу inventar
+                
             }
         });
     </script>
