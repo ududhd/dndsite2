@@ -70,6 +70,7 @@ img.armor {
 /* Рамка для кнопок */
 img.ramka_buttons {
     position: absolute;
+    display: grid;
     top: 14.5%;
     left: 88.5%;
     transform: translate(-50%, -50%);
@@ -217,6 +218,7 @@ img.chat{
 }
 img.Ramka_buttons2 {
     position: absolute;
+    display: grid;
     top: 29%;
     left: 88.5%;
     transform: translate(-50%, -50%);
@@ -263,5 +265,21 @@ img.Ramka_buttons2 {
 }
 .base {
     background-image: url('buttons/base_button.png');
+    background-size: cover;
+}
+
+.settings {
+    position: absolute;
+    display: grid;
+    flex-direction: column;
+    gap: 10px;
+    left: 54.9%;
+    top: 88.1%;
+    grid-template-columns: repeat(2, auto);
+    width: 5%;
+    height: 5.6%;
+}
+.setting {
+    background-image: url('buttons/settings_button_1.png');
     background-size: cover;
 }

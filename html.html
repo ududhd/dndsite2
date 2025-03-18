@@ -40,9 +40,10 @@
             <img src="interface/container2.png" class="reverse_container">
         
             <img src="interface/chat.png" class="chat">
-        </div>
-        <div class="invent">
-            <img src="interface/Inventory.png">
+
+            <div class="settings">
+                <button class="setting"></button>
+            </div>
         </div>
         <div>
             <img src="interface/2nd_button_frame.png" class="Ramka_buttons2">
@@ -61,7 +62,7 @@
          </div>
     </div>
     <script>
-        document.querySelector('.inventar').addEventListener('click', function() {
+        document.querySelector('.status').addEventListener('click', function() {
             var osnova = document.querySelector('.osnova');
             var invent = document.querySelector('.invent');
             // Переключаем видимость
