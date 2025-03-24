@@ -1,260 +1,302 @@
-
 img.background {
-    min-height: 100vh; /* Используем viewport height для высоты */
-    min-width: 100vw; /* Используем viewport width для ширины */
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1; /* Убедимся, что фон находится позади других элементов */
+  min-height: 100vh; /* Используем viewport height для высоты */
+  min-width: 100vw; /* Используем viewport width для ширины */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Убедимся, что фон находится позади других элементов */
 }
-
 
 /* Рамка */
 img.ramka {
-    position: absolute;
-    top: 50%;
-    left: 16%;
-    transform: translate(-50%, -50%);
-    max-width: 90%;
-    max-height: 87%;
-    width: auto; /* Автоматическая ширина для сохранения пропорций */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 87%;
+  width: auto; /* Автоматическая ширина для сохранения пропорций */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
 }
 
 /* Полоска здоровья */
 img.Health_bar {
-    position: absolute;
-    top: 12%;
-    left: 44%;
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 80px; /* Ограничиваем максимальную высоту */
+  position: absolute;
+  top: 12%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 80px; /* Ограничиваем максимальную высоту */
 }
 
 /* Броня */
 img.armor {
-    position: absolute;
-    top: 12%;
-    left: 66%; /* Используем проценты вместо фиксированных пикселей */
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 71.5px; /* Ограничиваем максимальную высоту */
+  position: absolute;
+  top: 12%;
+  left: 66%; /* Используем проценты вместо фиксированных пикселей */
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 71.5px; /* Ограничиваем максимальную высоту */
 }
 
 /* Рамка для кнопок */
 img.ramka_buttons {
-    position: absolute;
-    display: grid;
-    top: 14.5%;
-    left: 88.5%;
-    transform: translate(-50%, -50%);
-    width: 20%; /* Относительная шири2 */
-    height: 14%; /* Автоматическая высота для сохранения пропорций */
-    max-height: 83%; /* Ограничиваем максимальную высоту */
+  position: absolute;
+  display: grid;
+  top: 14.5%;
+  left: 88.5%;
+  transform: translate(-50%, -50%);
+  width: 20%; /* Относительная шири2 */
+  height: 14%; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83%; /* Ограничиваем максимальную высоту */
 }
-img.other_players{
-    position: absolute;
-    top: 44.8%;
-    left: 44%;
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 83px; /* Ограничиваем максимальную высоту */
+img.other_players {
+  position: absolute;
+  top: 44.8%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
 }
-img.other_players2{
-    position: absolute;
-    top: 54.8%;
-    left: 44%;
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 83px; /* Ограничиваем максимальную высоту */
+img.other_players2 {
+  position: absolute;
+  top: 54.8%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
 }
-img.other_players3{
-    position: absolute;
-    top: 64.8%;
-    left: 44%;
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 83px; /* Ограничиваем максимальную высоту */
+img.other_players3 {
+  position: absolute;
+  top: 64.8%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
 }
-img.other_players4{
-    position: absolute;
-    top: 74.8%;
-    left: 44%;
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 83px; /* Ограничиваем максимальную высоту */
+img.other_players4 {
+  position: absolute;
+  top: 74.8%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
 }
-img.other_players5{
-    position: absolute;
-    top: 84.8%;
-    left: 44%;
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 83px; /* Ограничиваем максимальную высоту */
+img.other_players5 {
+  position: absolute;
+  top: 84.8%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
 }
-img.container{
-    position: absolute;
-    top: 22%;
-    left: 44%;
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 80px; /* Ограничиваем максимальную высоту */
+img.container {
+  position: absolute;
+  top: 22%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 80px; /* Ограничиваем максимальную высоту */
 }
-img.container2{
-    position: absolute;
-    top: 32%;
-    left: 44%;
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 80px; /* Ограничиваем максимальную высоту */
+img.container2 {
+  position: absolute;
+  top: 32%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 80px; /* Ограничиваем максимальную высоту */
 }
-img.reverse_container{
-    position: absolute;
-    top: 22%;
-    left: 66%;
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 80px; /* Ограничиваем максимальную высоту */
+img.reverse_container {
+  position: absolute;
+  top: 22%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 80px; /* Ограничиваем максимальную высоту */
 }
-
-.invent{
-    display: none; /* Показываем элементы */
-    opacity: 1; /* Делаем элементы видимыми */
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1px;
-    height: auto;
-    max-height: 40%; 
+img.Status_panel_invent {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 87%;
+  width: auto; /* Автоматическая ширина для сохранения пропорций */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
 }
-img.chat{
-    position: absolute;
-    top: 58.4%;
-    left: 66%; /* Используем проценты вместо фиксированных пикселей */
-    transform: translate(-50%, -50%);
-    width: 22%; /* Относительная ширина */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    max-height: 85%; /* Ограничиваем максимальную высоту */
+img.chat {
+  position: absolute;
+  top: 58.4%;
+  left: 66%; /* Используем проценты вместо фиксированных пикселей */
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 85%;
+}
+img.inventar1 {
+  position: absolute;
+  width: 15%;
+  height: 90%;
+  top: 5.8%;
+  left: 31%;
+}
+img.inventar2 {
+  position: absolute;
+  width: 15%;
+  height: 90%;
+  top: 5.8%;
+  left: 46%;
+}
+img.inventar3 {
+  position: absolute;
+  width: 15%;
+  height: 90%;
+  top: 5.8%;
+  left: 61%;
+}
+img.Ivent {
+  position:absolute;
+  width: 16%;
+  height: 40%;
+  top: 37%;
+  left: 82.5%;
+}
+img.Event_bar1 {
+  position: absolute;
+  width: 16%;
+  height: 10%;
+  top: 77%;
+  left: 82.5%;
+}
+img.Event_bar2 {
+  position: absolute;
+  width: 16%;
+  height: 10%;
+  top: 87%;
+  left: 82.5%;
 }
 .buttons_1 {
-    position: absolute;
-    display: grid;
-    flex-direction: column;
-    gap: 10px;
-    left: 82%;
-    top: 8.7%;
-    grid-template-columns: repeat(2, auto);
-    width: 13%;
-    height: 11.7%;
-    transition: transform 0.3s; 
-  }
-.buttons_1:hover {
-    transform: scale(1.05);
-    cursor:pointer;
+  position: absolute;
+  display: grid;
+  flex-direction: column;
+  gap: 10px;
+  left: 82%;
+  top: 8.7%;
+  grid-template-columns: repeat(2, auto);
+  width: 13%;
+  height: 11.7%;
+  transition: transform 0.3s;
 }
-  /* Смещаем кнопки из левой колонки (1-я и 3-я) немного влево */
+.buttons_1:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+/* Смещаем кнопки из левой колонки (1-я и 3-я) немного влево */
 .buttons_1 button:nth-child(odd) {
-    transform: translateX(-44%); /* смещаем на 5 пикселей влево, значение можно корректировать */
-  }
-  
-  /* Смещаем кнопки из правой колонки (2-я и 4-я) немного вправо */
-  .buttons_1 button:nth-child(even) {
-    transform: translateX(44%);  /* смещаем на 5 пикселей вправо */
-  }
+  transform: translateX(
+    -44%
+  ); /* смещаем на 5 пикселей влево, значение можно корректировать */
+}
+
+/* Смещаем кнопки из правой колонки (2-я и 4-я) немного вправо */
+.buttons_1 button:nth-child(even) {
+  transform: translateX(44%); /* смещаем на 5 пикселей вправо */
+}
 
 .status {
-    background-image: url('buttons/status_button.png');
-    background-size: cover;
+  background-image: url("buttons/status_button.png");
+  background-size: cover;
 }
 .skils {
-    background-image: url('buttons/skills_button.png');
-    background-size: cover;
+  background-image: url("buttons/skills_button.png");
+  background-size: cover;
 }
 .relations {
-    background-image: url('buttons/relations_button.png');
-    background-size: cover;
+  background-image: url("buttons/relations_button.png");
+  background-size: cover;
 }
 .statistic {
-    background-image: url('buttons/statistics_button.png');
-    background-size: cover;
+  background-image: url("buttons/statistics_button.png");
+  background-size: cover;
 }
 img.Ramka_buttons2 {
-    position: absolute;
-    display: grid;
-    top: 29%;
-    left: 88.5%;
-    transform: translate(-50%, -50%);
-    width: 20%; /* Относительная шири2 */
-    height: 14%; /* Автоматическая высота для сохранения пропорций */
-    max-height: 83%; /* Ограничиваем максимальную высоту */
+  position: absolute;
+  display: grid;
+  top: 29%;
+  left: 88.5%;
+  transform: translate(-50%, -50%);
+  width: 20%; /* Относительная шири2 */
+  height: 14%; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83%; /* Ограничиваем максимальную высоту */
 }
 .buttons_2 {
-    position: absolute;
-    display: grid;
-    flex-direction: column;
-    gap: 10px;
-    left: 82%;
-    top: 23.2%;
-    grid-template-columns: repeat(2, auto);
-    width: 13%;
-    height: 11.7%;
-    transition: transform 0.3s;
+  position: absolute;
+  display: grid;
+  flex-direction: column;
+  gap: 10px;
+  left: 82%;
+  top: 23.2%;
+  grid-template-columns: repeat(2, auto);
+  width: 13%;
+  height: 11.7%;
+  transition: transform 0.3s;
 }
 .buttons_2:hover {
-    transform: scale(1.05);
-    cursor:pointer;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 .buttons_2 button:nth-child(odd) {
-    transform: translateX(-46.2%); /* смещаем на 5 пикселей влево, значение можно корректировать */
+  transform: translateX(
+    -46.2%
+  ); /* смещаем на 5 пикселей влево, значение можно корректировать */
 }
 
-  /* Смещаем кнопки из правой колонки (2-я и 4-я) немного вправо */
+/* Смещаем кнопки из правой колонки (2-я и 4-я) немного вправо */
 .buttons_2 button:nth-child(even) {
-    transform: translateX(46%);  /* смещаем на 5 пикселей вправо */
+  transform: translateX(46%); /* смещаем на 5 пикселей вправо */
 }
 
 .craft {
-    background-image: url('buttons/craft_button.png');
-    background-size: cover;
+  background-image: url("buttons/craft_button.png");
+  background-size: cover;
 }
 .inventar {
-    background-image: url('buttons/Sprite-inventory.png');
-    background-size: cover;
+  background-image: url("buttons/Sprite-inventory.png");
+  background-size: cover;
 }
 .auto {
-    background-image: url('buttons/vehecle_button.png');
-    background-size: cover;
+  background-image: url("buttons/vehecle_button.png");
+  background-size: cover;
 }
 .base {
-    background-image: url('buttons/base_button.png');
-    background-size: cover;
+  background-image: url("buttons/base_button.png");
+  background-size: cover;
 }
 
 .settings {
-    position: absolute;
-    display: grid;
-    flex-direction: column;
-    gap: 10px;
-    left: 54.9%;
-    top: 88.1%;
-    grid-template-columns: repeat(2, auto);
-    width: 5%;
-    height: 5.6%;
+  position: absolute;
+  display: grid;
+  flex-direction: column;
+  gap: 10px;
+  left: 54.9%;
+  top: 88.1%;
+  grid-template-columns: repeat(2, auto);
+  width: 5%;
+  height: 5.6%;
 }
 .setting {
-    background-image: url('buttons/settings_button_1.png');
-    background-size: cover;
+  background-image: url("buttons/settings_button_1.png");
+  background-size: cover;
 }

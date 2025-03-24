@@ -1,80 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="Style.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
     <div class="main_conteiner">
-        <div>
-            <img src="interface/Site_base_texture.png" class="background">
-        </div>
-        <div>
-            <img src="interface/Status_panel.png" class="ramka">
-        </div>
-        <div>
-            <img src="interface/Ramka_button.png" class="ramka_buttons">
-        </div>
-        <div class="osnova">
-            <img src="interface/Health_bar.png" class="Health_bar">
+      <div>
+        <img src="interface/Site_base_texture.png" class="background" />
+      </div>
+      <div>
+        <img src="interface/Ramka_button.png" class="ramka_buttons" />
+      </div>
+      <div class="osnova">
+        <img src="interface/Health_bar.png" class="Health_bar" />
 
-            <img src="interface/armor_button.png" class="armor">
-       
-            <img src="interface/other_players.png" class="other_players">
-        
-            <img src="interface/other_players.png" class="other_players2">
-        
-            <img src="interface/other_players.png" class="other_players3">
-        
-            <img src="interface/other_players.png" class="other_players4">
-        
-            <img src="interface/other_players.png" class="other_players5">
-        
-            <img src="interface/container.png" class="container">
-        
-            <img src="interface/container.png" class="container2">
-        
-            <img src="interface/container2.png" class="reverse_container">
-        
-            <img src="interface/chat.png" class="chat">
+        <img src="interface/armor_button.png" class="armor" />
 
-            <div class="settings">
-                <button class="setting"></button>
-            </div>
+        <img src="interface/other_players.png" class="other_players" />
+
+        <img src="interface/other_players.png" class="other_players2" />
+
+        <img src="interface/other_players.png" class="other_players3" />
+
+        <img src="interface/other_players.png" class="other_players4" />
+
+        <img src="interface/other_players.png" class="other_players5" />
+
+        <img src="interface/container.png" class="container" />
+
+        <img src="interface/container.png" class="container2" />
+
+        <img src="interface/container2.png" class="reverse_container" />
+
+        <img src="interface/chat.png" class="chat" />
+    
+        <img src="interface/Status_panel.png" class="ramka" />
+        <div class="settings">
+          <button class="setting"></button>
         </div>
-        <div>
-            <img src="interface/2nd_button_frame.png" class="Ramka_buttons2">
-        </div>
-        <div class="buttons_1">
-              <button class="status"></button>
-              <button class="skils"></button>
-              <button class="relations"></button>
-              <button class="statistic"></button>
-         </div>
-         <div class="buttons_2">
-            <button class="craft"></button>
-            <button class="inventar"></button>
-            <button class="auto"></button>
-            <button class="base"></button>
-         </div>
+      </div>
+      <div>
+        <img src="interface/2nd_button_frame.png" class="Ramka_buttons2" />
+      </div>
+      <div class="buttons_1">
+        <button class="status"></button>
+        <button class="skils"></button>
+        <button class="relations"></button>
+        <button class="statistic"></button>
+      </div>
+      <div class="buttons_2">
+        <button class="craft"></button>
+        <button class="inventar"></button>
+        <button class="auto"></button>
+        <button class="base"></button>
+      </div>
+    </div>
+    <div class="invent">
+      <img src="interface/Status panel inventory 1.png" class="Status_panel_invent">
+      <img src="interface/new inventory.png" class="inventar1">
+      <img src="interface/new inventory.png" class="inventar2">
+      <img src="interface/new inventory.png" class="inventar3">
+      <img src="interface/Ivent.png" class="Ivent">
+      <img src="interface/Event_point.png" class="Event_bar1">
+      <img src="interface/Event_point.png" class="Event_bar2">
     </div>
     <script>
-        document.querySelector('.inventar').addEventListener('click', function() {
-            var osnova = document.querySelector('.osnova');
-            var invent = document.querySelector('.invent');
-            // Переключаем видимость
-            if (osnova.style.display !== 'none') {
-                osnova.style.display = 'none';  // Скрываем группу osnova
-                invent.style.display = 'block';  // Показываем группу inventar
-            } else {
-                osnova.style.display = 'block';  // Показываем группу osnova
-                invent.style.display = 'none';  // Скрываем группу inventar
-                
-            }
+      document
+        .querySelector(".inventar")
+        .addEventListener("click", function () {
+          var osnova = document.querySelector(".osnova");
+          var invent = document.querySelector(".invent");
+          // Переключаем видимость
+          if (osnova.style.display !== "none") {
+            osnova.style.display = "none"; // Скрываем группу osnova
+            invent.style.display = "block"; // Показываем группу inventar
+          } else {
+            osnova.style.display = "block"; // Показываем группу osnova
+            invent.style.display = "none"; // Скрываем группу inventar
+          }
         });
     </script>
-</body>
+  </body>
 </html>
