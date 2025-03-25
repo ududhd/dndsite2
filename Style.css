@@ -264,7 +264,20 @@ img.Ramka_buttons2 {
     -46.2%
   ); /* смещаем на 5 пикселей влево, значение можно корректировать */
 }
-
+.swipe {
+  position:absolute;
+  top: 42%;
+  left: 27.4%;
+  width: 2%;
+  height: 16%;
+}
+.swipe2 {
+  position:absolute;
+  top: 42%;
+  left: 2.6%;
+  width: 2%;
+  height: 16%;
+}
 /* Смещаем кнопки из правой колонки (2-я и 4-я) немного вправо */
 .buttons_2 button:nth-child(even) {
   transform: translateX(46%); /* смещаем на 5 пикселей вправо */
