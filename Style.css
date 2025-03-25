@@ -138,6 +138,28 @@ img.Status_panel_invent {
   width: auto; /* Автоматическая ширина для сохранения пропорций */
   height: auto; /* Автоматическая высота для сохранения пропорций */
 }
+img.Status_panel_invent2{
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 87%;
+  width: auto; /* Автоматическая ширина для сохранения пропорций */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+button.swipe{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+button.swipe2{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
 img.chat {
   position: absolute;
   top: 58.4%;

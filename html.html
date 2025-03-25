@@ -16,27 +16,16 @@
       </div>
       <div class="osnova">
         <img src="interface/Health_bar.png" class="Health_bar" />
-
         <img src="interface/armor_button.png" class="armor" />
-
         <img src="interface/other_players.png" class="other_players" />
-
         <img src="interface/other_players.png" class="other_players2" />
-
         <img src="interface/other_players.png" class="other_players3" />
-
         <img src="interface/other_players.png" class="other_players4" />
-
         <img src="interface/other_players.png" class="other_players5" />
-
         <img src="interface/container.png" class="container" />
-
         <img src="interface/container.png" class="container2" />
-
         <img src="interface/container2.png" class="reverse_container" />
-
         <img src="interface/chat.png" class="chat" />
-    
         <img src="interface/Status_panel.png" class="ramka" />
         <div class="settings">
           <button class="setting"></button>
@@ -58,8 +47,9 @@
         <button class="base"></button>
       </div>
     </div>
-    <div class="invent">
+    <div class="invent" style="display: none;">
       <img src="interface/Status panel inventory 1.png" class="Status_panel_invent">
+      <img src="interface/Status_panel_4.jpg" class="Status_panel_invent2" style="display: none;">
       <img src="interface/new inventory.png" class="inventar1">
       <img src="interface/new inventory.png" class="inventar2">
       <img src="interface/new inventory.png" class="inventar3">
@@ -70,21 +60,43 @@
       <button class="swipe2"></button>
     </div>
     <script>
-      document
-        .querySelector(".inventar")
-        .addEventListener("click", function () {
-          var osnova = document.querySelector(".osnova");
-          var invent = document.querySelector(".invent");
-          
-          // Переключаем видимость
-          if (osnova.style.display !== "none") {
-            osnova.style.display = "none"; // Скрываем группу osnova
-            invent.style.display = "block"; // Показываем группу inventar
+      document.querySelector(".inventar").addEventListener("click", function () {
+        var osnova = document.querySelector(".osnova");
+        var invent = document.querySelector(".invent");
+
+        // Переключаем видимость
+        if (osnova.style.display !== "none") {
+          osnova.style.display = "none"; // Скрываем группу osnova
+          invent.style.display = "block"; // Показываем группу inventar
+        } else {
+          osnova.style.display = "block"; // Показываем группу osnova
+          invent.style.display = "none"; // Скрываем группу inventar
+        }
+      });
+
+      document.querySelector(".swipe").addEventListener("click", function () {
+        toggleInventoryImage();
+      });
+
+      document.querySelector(".swipe2").addEventListener("click", function () {
+        toggleInventoryImage();
+      });
+
+      function toggleInventoryImage() {
+        var invent = document.querySelector(".invent");
+        var statusPanelInvent = document.querySelector(".Status_panel_invent");
+        var statusPanelInvent2 = document.querySelector(".Status_panel_invent2");
+
+        if (invent.style.display === "block") {
+          if (statusPanelInvent.style.display !== "none") {
+            statusPanelInvent.style.display = "none";
+            statusPanelInvent2.style.display = "block";
           } else {
-            osnova.style.display = "block"; // Показываем группу osnova
-            invent.style.display = "none"; // Скрываем группу inventar
+            statusPanelInvent.style.display = "block";
+            statusPanelInvent2.style.display = "none";
           }
-        });
+        }
+      }
     </script>
   </body>
 </html>
