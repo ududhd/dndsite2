@@ -14,6 +14,7 @@
       <div>
         <img src="interface/Ramka_button.png" class="ramka_buttons" />
       </div>
+      <img src="interface/Ivent.png" class="Ivent">
       <div class="osnova">
         <img src="interface/Health_bar.png" class="Health_bar" />
         <img src="interface/armor_button.png" class="armor" />
@@ -27,9 +28,15 @@
         <img src="interface/container2.png" class="reverse_container" />
         <img src="interface/chat.png" class="chat" />
         <img src="interface/Status_panel.png" class="ramka" />
+        <img src="interface/Status panel 2.png" class="charclass" style="display: none;" />
+        <img src="interface/cube.png" class="cube1" />
+        <img src="interface/cube.png" class="cube2" />
         <div class="settings">
           <button class="setting"></button>
         </div>
+        <button class="character-class">
+          <span></span>
+        </button>
       </div>
       <div>
         <img src="interface/2nd_button_frame.png" class="Ramka_buttons2" />
@@ -53,7 +60,6 @@
       <img src="interface/new inventory.png" class="inventar1">
       <img src="interface/new inventory.png" class="inventar2">
       <img src="interface/new inventory.png" class="inventar3">
-      <img src="interface/Ivent.png" class="Ivent">
       <img src="interface/Event_point.png" class="Event_bar1">
       <img src="interface/Event_point.png" class="Event_bar2">
       <button class="swipe"></button>
@@ -97,6 +103,27 @@
           }
         }
       }
+
+      function moveButton(top, left) {
+        var button = document.querySelector(".character-class");
+        button.style.top = top + "px";
+        button.style.left = left + "px";
+      }
+
+      moveButton(586, 163);
+
+      document.querySelector(".character-class").addEventListener("click", function () {
+        var ramka = document.querySelector(".ramka");
+        var charclass = document.querySelector(".charclass");
+
+        if (ramka.style.display !== "none") {
+          ramka.style.display = "none";
+          charclass.style.display = "block";
+        } else {
+          ramka.style.display = "block";
+          charclass.style.display = "none";
+        }
+      });
     </script>
   </body>
 </html>

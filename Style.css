@@ -22,6 +22,18 @@ img.ramka {
   width: auto; /* Автоматическая ширина для сохранения пропорций */
   height: auto; /* Автоматическая высота для сохранения пропорций */
 }
+img.charclass {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 87%;
+  width: auto; /* Автоматическая ширина для сохранения пропорций */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+
 
 /* Полоска здоровья */
 img.Health_bar {
@@ -211,6 +223,20 @@ img.Event_bar2 {
   top: 87%;
   left: 82.5%;
 }
+img.cube1 {
+  position: absolute;
+  width: 16%;
+  height: 10%;
+  top: 77%;
+  left: 82.5%;
+}
+img.cube2 {
+  position: absolute;
+  width: 16%;
+  height: 10%;
+  top: 87%;
+  left: 82.5%;
+}
 .buttons_1 {
   position: absolute;
   display: grid;
@@ -322,13 +348,31 @@ img.Ramka_buttons2 {
   background-size: cover;
 }
 
+.character-class {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid black;
+  position: relative;
+  transform: rotate(45deg);
+  margin: 50px;
+}
+
+.character-class span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  font-size: 14px;
+}
+
 .settings {
   position: absolute;
   display: grid;
   flex-direction: column;
   gap: 10px;
   left: 54.9%;
-  top: 88.1%;
+  top: 85%;
   grid-template-columns: repeat(2, auto);
   width: 5%;
   height: 5.6%;
@@ -336,4 +380,10 @@ img.Ramka_buttons2 {
 .setting {
   background-image: url("buttons/settings_button_1.png");
   background-size: cover;
+}
+button.character-class{
+  border: none;
+  outline: none;
+  cursor: pointer;
+
 }
