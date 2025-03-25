@@ -68,3 +68,96 @@ img.background_2 {
   border: none; /* Убираем границу, если она есть */
   padding: 0; /* Убираем отступы, если они мешают */
 }
+
+img.status_dm {
+  position: absolute;
+  top: 50%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 87%;
+  width: auto; /* Автоматическая ширина для сохранения пропорций */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+img.Chat {
+  position: absolute;
+  top: 7%;
+  left: 30%;
+  width: 20%;
+  height: 66%;
+}
+img.Player1 {
+  position: absolute;
+  top: 11.4%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
+}
+img.Player2 {
+  position: absolute;
+  top: 21%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
+}
+img.Player3 {
+  position: absolute;
+  top: 30.5%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
+}
+img.Player4 {
+  position: absolute;
+  top: 40%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
+}
+img.Player5 {
+  position: absolute;
+  top: 49.5%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
+}
+img.Player6 {
+  position: absolute;
+  top: 59.2%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  width: 22%; /* Относительная ширина */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  max-height: 83px; /* Ограничиваем максимальную высоту */
+}
+img.ivent_2 {
+  position:absolute;
+  width: 16%;
+  height: 40%;
+  top: 37%;
+  left: 82.5%;
+}
+img.ivent_bar1_1 {
+  position: absolute;
+  width: 16%;
+  height: 10%;
+  top: 77%;
+  left: 82.5%;
+}
+img.ivent_bar2_2 {
+  position: absolute;
+  width: 16%;
+  height: 10%;
+  top: 87%;
+  left: 82.5%;
+}
