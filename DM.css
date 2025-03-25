@@ -20,13 +20,12 @@ img.background_2 {
     display: grid;
     flex-direction: column;
     gap: 10px;
-    left: 82%;
+    left: 81.9%;
     top: 7.9%;
     grid-template-columns: repeat(2, auto);
     width: 16%;
-    height: 13%;
+    height: 12%;
     transition: transform 0.3s;
-     
   }
   .buttonDM_1:hover {
     transform: scale(1.05);
@@ -35,17 +34,36 @@ img.background_2 {
   }
   /* Смещаем кнопки из левой колонки (1-я и 3-я) немного влево */
   .buttonDM_1 button:nth-child(odd) {
-    transform: translateX(
-      -46%
-    ); /* смещаем на 5 пикселей влево, значение можно корректировать */
+    transform: translateX(-46%); /* смещаем на 5 пикселей влево, значение можно корректировать */
   }
   /* Смещаем кнопки из правой колонки (2-я и 4-я) немного вправо */
   .buttonDM_1 button:nth-child(even) {
-  transform: translateX(2%); /* смещаем на 5 пикселей вправо */
+  transform: translateX(-2%); /* смещаем на 5 пикселей вправо */
 }
 .buttonDM1 {
   background-color: transparent; /* Прозрачный фон */
   background-image: url("buttons/gm\ b1.png");
+  background-size: cover; /* Масштабирование изображения */
+  border: none; /* Убираем границу, если она есть */
+  padding: 0; /* Убираем отступы, если они мешают */
+}
+.buttonDM2 {
+  background-color: transparent; /* Прозрачный фон */
+  background-image: url("buttons/gm\ b3.png");
+  background-size: cover; /* Масштабирование изображения */
+  border: none; /* Убираем границу, если она есть */
+  padding: 0; /* Убираем отступы, если они мешают */
+}
+.buttonDM3 {
+  background-color: transparent; /* Прозрачный фон */
+  background-image: url("buttons/gm\ b2.png");
+  background-size: cover; /* Масштабирование изображения */
+  border: none; /* Убираем границу, если она есть */
+  padding: 0; /* Убираем отступы, если они мешают */
+}
+.buttonDM4 {
+  background-color: transparent; /* Прозрачный фон */
+  background-image: url("buttons/gm\ b4.png");
   background-size: cover; /* Масштабирование изображения */
   border: none; /* Убираем границу, если она есть */
   padding: 0; /* Убираем отступы, если они мешают */
