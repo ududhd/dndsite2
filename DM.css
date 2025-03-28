@@ -89,7 +89,7 @@ img.Chat {
 img.Player1 {
   position: absolute;
   top: 11.4%;
-  left: 61%;
+  left: 62%;
   transform: translate(-50%, -50%);
   width: 22%; /* Относительная ширина */
   height: auto; /* Автоматическая высота для сохранения пропорций */
@@ -98,7 +98,7 @@ img.Player1 {
 img.Player2 {
   position: absolute;
   top: 21%;
-  left: 61%;
+  left: 62%;
   transform: translate(-50%, -50%);
   width: 22%; /* Относительная ширина */
   height: auto; /* Автоматическая высота для сохранения пропорций */
@@ -107,7 +107,7 @@ img.Player2 {
 img.Player3 {
   position: absolute;
   top: 30.5%;
-  left: 61%;
+  left: 62%;
   transform: translate(-50%, -50%);
   width: 22%; /* Относительная ширина */
   height: auto; /* Автоматическая высота для сохранения пропорций */
@@ -116,7 +116,7 @@ img.Player3 {
 img.Player4 {
   position: absolute;
   top: 40%;
-  left: 61%;
+  left: 62%;
   transform: translate(-50%, -50%);
   width: 22%; /* Относительная ширина */
   height: auto; /* Автоматическая высота для сохранения пропорций */
@@ -125,7 +125,7 @@ img.Player4 {
 img.Player5 {
   position: absolute;
   top: 49.5%;
-  left: 61%;
+  left: 62%;
   transform: translate(-50%, -50%);
   width: 22%; /* Относительная ширина */
   height: auto; /* Автоматическая высота для сохранения пропорций */
@@ -134,7 +134,7 @@ img.Player5 {
 img.Player6 {
   position: absolute;
   top: 59.2%;
-  left: 61%;
+  left: 62%;
   transform: translate(-50%, -50%);
   width: 22%; /* Относительная ширина */
   height: auto; /* Автоматическая высота для сохранения пропорций */
@@ -160,4 +160,18 @@ img.ivent_bar2_2 {
   height: 10%;
   top: 87%;
   left: 82.5%;
+}
+.swipe_1 {
+  position: absolute;
+  top: 43%;
+  left: 27.3%;
+  width: 2%;
+  height: 15%;
+}
+.swipe_2 {
+  position: absolute;
+  top: 43%;
+  left: 2.7%;
+  width: 2%;
+  height: 15%;
 }
